@@ -1,0 +1,258 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+/* Header styles */
+#name {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 10px 0;
+  color: #333;
+}
+
+#role {
+  font-size: 18px;
+  font-weight: 500;
+  color: #777777;
+}
+
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.details p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #777777;
+  margin-right: 20px;
+}
+
+.details p i {
+  margin-right: 5px;
+  color: #333;
+}
+
+/* Main content styles */
+.columns {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.left-column {
+  flex: 1;
+}
+
+.right-column {
+  flex: 0.8;
+}
+
+.section h2 {
+  font-size: 24px;
+  border-bottom: 2px solid #333;
+  margin-top: 20px;
+  padding-bottom: 5px;
+  color: #333;
+}
+
+.section h4 {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #777777;
+}
+
+.section p {
+  font-size: 16px;
+  color: #777777;
+  line-height: 1.5;
+}
+
+.line-break {
+  border-top: 1px dotted #ccc;
+  margin-top: 20px;
+}
+
+/* Education styles */
+.edu-basic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.edu-left {
+  flex: 1;
+}
+
+.edu-left h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.edu-left h5 {
+  font-size: 14px;
+  color: #777777;
+  margin-bottom: 10px;
+}
+
+.edu-attributes {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  color: #777777;
+}
+
+.edu-attributes p i {
+  margin-right: 5px;
+}
+
+.edu-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edu-marks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  border-left: 1px solid #333;
+  padding-left: 10px;
+  color: #333;
+}
+
+.edu-right p:nth-child(2) {
+  font-size: 24px;
+}
+
+/* Projects styles */
+.projects h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #333;
+}
+
+.projects p:first-of-type {
+  font-size: 14px;
+  font-weight: 500;
+  color: #777777;
+  margin-top: 5px;
+}
+
+.projects p:nth-of-type(2) {
+  font-size: 16px;
+  color: #777777;
+  margin-top: 10px;
+}
+
+.projects p i {
+  margin-right: 5px;
+  color: #333;
+}
+
+.projects ul {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #777777;
+}
+
+/* Skills styles */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.skills-container h3 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.skill {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* Certifications styles */
+.certifications-container h4 {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.certifications-container h5 {
+  font-size: 16px;
+  color: #777777;
+}
+
+.certifications-container p {
+  font-size: 16px;
+  color: #777777;
+  margin-top: 10px;
+}
+
+/* Links styles */
+.links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.link i {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #333;
+}
+
+.link h5 {
+  font-size: 18px;
+  margin: 0;
+  color: #333;
+}
+
+.links .line-break {
+  border-top: 1px dotted #ccc;
+  margin-top: 10px;
+}
