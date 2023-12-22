@@ -1,0 +1,34 @@
+<%- include('partials/head') %>
+
+<div class="flex-col bg-gradient-to-tl from-blue-500 to-blue-900 px-10">
+    <%- include('partials/navigation') %>
+    <h2 class="text-2xl font-bold my-4 mx-auto jus">Create Transaction</h2>
+        <form action="/transactions" class="space-y-24 mx-auto" method="post">
+            <div class="mb-4">
+                <label for="transactionId" class="block text-gray-700 font-bold mb-2">Transaction ID</label>
+                <input type="text" id="transactionId" name="transactionId" placeholder="ID" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+                <label for="transactionCreatedBy" class="block text-gray-700 font-bold mb-2">Payment From</label>
+                <input type="text" id="transactionCreatedBy" name="transactionCreatedBy" placeholder="Name" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+                <label for="transactionAmount" class="block text-gray-700 font-bold mb-2">Amount</label>
+                <input type="number" id="transactionAmount" name="transactionAmount" placeholder="$" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+                <label for="transactionDescription" class="block text-gray-700 font-bold mb-2">Description</label>
+                <input type="text" id="transactionDescription" name="transactionDescription" placeholder="Description" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="mb-4">
+                <label for="transactionCreatedTo" class="block text-gray-700 font-bold mb-2">Paid To</label>
+                <input type="text" id="transactionCreatedTo" name="transactionCreatedTo" placeholder="Name" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+            </div>
+            <div class="flex justify-center">
+                <button type="submit" style="background-color: rgb(205, 112, 50)" class="hover:bg-yellow-600 text-white font-bold py-2 px-4 my-10 ">
+                    Create Transaction
+                </button>
+            </div>
+        </form>
+</div>
+<%- include('partials/footer') %>
